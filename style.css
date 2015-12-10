@@ -1,19 +1,74 @@
-div {
+body {
+  font-family: 'Century Gothic', Helvetica, sans-serif;
+}
+h3{
+  text-align: right;
+}
+hr{
+  display: block;
+  margin:.5em, auto;
+  border-style: inset;
+  border-width: 3px;
+}
+.ingredients {
   background-image: url('imgs/list-bg.png');
-  width: 600px;
+  width: 700px;
+  height: auto;
 }
 ul{
   list-style: none;
 }
+.list1 li{
+  float: left;
+  column: 2;
+}
+.list2 li{
+  float: right;
+}
 img {
-  width:600px;
+  width:700px;
+}
+#wrapper {
+  margin: auto;
+  width: 720px;
+  padding: 10px;
+  border: 3px solid
+}
+#name {
+  vertical-align: middle;
+}
+#toplogo {
+  width: 80px;
+  display: block;
+  align-content: center;
+  float: left;
+  margin: 0px, 15px, 15px, 0px;
 }
 
 #logo {
-  width: 30px;
+  width: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+#van {
+  width: 50px;
+  display: block;
+
+  float: left;
+  margin: 0px, 15px, 15px, 0px;
+}
+
+#sm {
+  width: 20px;
+  position: relative;
+  float: right;
+  margin: 5px, 5px, 5px, 5px;
+  padding: 5px, 5px, 5px, 5px;
+}
+.bottom {
+  float: left;
+  margin: 0px, 15px, 15px, 0px;
 }
 
 footer{
