@@ -1,0 +1,22 @@
+div {
+  background-image: url('imgs/list-bg.png');
+  width: 600px;
+}
+ul{
+  list-style: none;
+}
+img {
+  width:600px;
+}
+
+#logo {
+  width: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  position:relative;
+
+}
