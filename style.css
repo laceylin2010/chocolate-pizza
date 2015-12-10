@@ -18,13 +18,7 @@ hr{
 ul{
   list-style: none;
 }
-.list1 li{
-  float: left;
-  column: 2;
-}
-.list2 li{
-  float: right;
-}
+
 img {
   width:700px;
 }
